@@ -1,8 +1,26 @@
 aid: crew
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/crew.png
 name: Crew
-description: 'Crew is a company surfaced as a portfolio company of greylock and added to the API Evangelist
-  network as a stub for enrichment. Sector: applications. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Crew is a digital workplace platform for frontline and deskless teams, connecting
+  frontline staff to corporate leadership across distributed workforces. The product bundles
+  real-time team communication and employee engagement, labor optimization and shift scheduling,
+  task execution, culture and recognition, knowledge management, a Command Center for administration
+  and analytics, a compliance and safety suite, and third-party integrations. Crew reports serving
+  more than one million frontline workers across companies including Taco Bell, Wendy''s, Planet
+  Fitness, and Harps Foods. It is backed by Greylock and was added to the API Evangelist network as a
+  portfolio lead; no public API, developer portal, or technical documentation surface was found during
+  enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/crew/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Applications
+- Workforce Management
+- Frontline
+- Communication
+- Scheduling
+- Task Management
+- Employee Engagement
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.crewapp.com/
+- type: About
+  url: https://www.crewapp.com/about
+- type: SignUp
+  url: https://crewapp.com/app
+- type: TermsOfService
+  url: https://www.crewapp.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.crewapp.com/privacy-landing
+- type: DomainSecurity
+  url: security/crew-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
